@@ -1,0 +1,177 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e8eff3;
+  background-image: linear-gradient(62deg, #e8eff3 0%, #e0c3fc 100%);
+
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif; */
+}
+
+header {
+  height: 80px;
+  /* border: 1px solid greenyellow; */
+}
+
+.banner {
+  padding-bottom: 30px;
+}
+
+ul {
+  float: right;
+  list-style: none;
+  margin-right: 100px;
+  margin-top: 30px;
+  /* border: 1px solid red; */
+}
+
+ul li {
+  float: left;
+  padding-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+  padding-bottom: 0;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.highlight {
+  color: lightcoral;
+  padding-top: 0;
+}
+
+.half-width {
+  width: 32%;
+  margin-left: 4%;
+  padding-left: 2%;
+  margin-top: 2%;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.half-width img {
+  width: 100%;
+  /* padding-bottom: 10px; */
+}
+
+.link-button {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(60deg, lightcoral, hotpink);
+  border-radius: 6px;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.self-des {
+  padding-top: 100px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+.download {
+  padding: 14px;
+  margin: 15px;
+}
+
+p {
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: justify;
+}
+
+i {
+  padding: 5px;
+}
+
+.work {
+  /* display: inline-block; */
+  float: left;
+  height: 100vh;
+  /* padding: 2%;
+  margin: 3%; */
+  text-align: center;
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+.card {
+  float: left;
+  margin-left: 5%;
+  width: 25%;
+  /* padding: 30px; */
+  /* border: 2px solid red; */
+  /* margin: 20px; */
+  background: #fff;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.text-area {
+  text-align: center;
+  color: cornflowerblue;
+  font-weight: 700;
+  /* padding: 10px; */
+}
+
+.full-width {
+  width: 50%;
+  position: relative;
+}
+
+.full-width img {
+  width: 100%;
+  padding-top: 5%;
+  padding-left: 50%;
+  padding-bottom: 2%;
+}
+
+.chat {
+  /* margin-left: 80%; */
+  position: absolute;
+  right: -35%;
+  bottom: 4%;
+}
+
+.info-text {
+  position: absolute;
+  left: 30%;
+  bottom: -206%;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.email-section {
+  text-align: center;
+  color: darkslategray;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.footer-img {
+  width: 40px;
+  padding: 10px;
+}
